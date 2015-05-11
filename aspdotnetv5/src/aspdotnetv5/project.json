@@ -30,11 +30,8 @@
   },
 
   "commands": {
-    "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5000",
-    "gen": "Microsoft.Framework.CodeGeneration",
-    "ef": "EntityFramework.Commands"
+    "Kestrel": "Microsoft.AspNetHosting --server Kestrel --server.urls http://localhost:3000"   
   },
-
   "frameworks": {
     "dnx451": { },
     "dnxcore50": { }
