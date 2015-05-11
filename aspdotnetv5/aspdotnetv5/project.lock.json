@@ -5,59 +5,12 @@
     "": [
       "Microsoft.AspNet.Server.IIS >= 1.0.0-beta4",
       "Microsoft.AspNet.Server.WebListener >= 1.0.0-beta4",
-      "Kestrel >= 1.0.0-beta4"
+      "Microsoft.AspNet.Server.Kestrel >= 1.0.0-beta4"
     ],
     "DNX,Version=v4.5.1": [],
     "DNXCore,Version=v5.0": []
   },
   "libraries": {
-    "Kestrel/1.0.0-beta4": {
-      "serviceable": false,
-      "sha": "8f2aCgtDh5ONWS7K2EYy23s3nnPvZS7rPimYHJ1DAvF7HG5GSmSC+SkKx6ZtBOjhU9agneWjDwj5jGjdPWfjsA==",
-      "frameworks": {
-        "DNX,Version=v4.5.1": {
-          "dependencies": {
-            "Microsoft.AspNet.Hosting": "1.0.0-beta4",
-            "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta4"
-          },
-          "frameworkAssemblies": [
-            "mscorlib",
-            "System",
-            "System.Core",
-            "Microsoft.CSharp"
-          ],
-          "runtimeAssemblies": [
-            "lib/dnx451/Kestrel.dll"
-          ],
-          "compileAssemblies": [
-            "lib/dnx451/Kestrel.dll"
-          ]
-        },
-        "DNXCore,Version=v5.0": {
-          "dependencies": {
-            "Microsoft.AspNet.Hosting": "1.0.0-beta4",
-            "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta4",
-            "System.Runtime": "4.0.20-beta-22816"
-          },
-          "frameworkAssemblies": [],
-          "runtimeAssemblies": [
-            "lib/dnxcore50/Kestrel.dll"
-          ],
-          "compileAssemblies": [
-            "lib/dnxcore50/Kestrel.dll"
-          ]
-        }
-      },
-      "files": [
-        "Kestrel.1.0.0-beta4.nupkg",
-        "Kestrel.1.0.0-beta4.nupkg.sha512",
-        "Kestrel.nuspec",
-        "lib/dnx451/Kestrel.dll",
-        "lib/dnx451/Kestrel.xml",
-        "lib/dnxcore50/Kestrel.dll",
-        "lib/dnxcore50/Kestrel.xml"
-      ]
-    },
     "Microsoft.AspNet.DataProtection.Interfaces/1.0.0-beta4": {
       "serviceable": true,
       "sha": "y0pyHIooDn15lJZEETy9+u9ynw+4ZRngRjHguIQuBKm30j1+dwQRqqyS6L1SnFCzAS0mq6+5GauzA8qWxHc60g==",
