@@ -10,7 +10,8 @@
   },
 
   "commands": {
-    "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5000"
+    "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5000",
+     "gen": "Microsoft.Framework.CodeGeneration"
   },
 
   "frameworks": {
